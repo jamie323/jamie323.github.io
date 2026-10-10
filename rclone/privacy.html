@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for Jamie Thomson's personal rclone connection to Google Drive.">
+  <title>Privacy — Jamie Thomson's personal rclone connection</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 1.05rem/1.65 system-ui, sans-serif; background: #f7f9fb; color: #17232e; }
+    main { max-width: 48rem; margin: 4rem auto; padding: 0 1.5rem; }
+    h1 { font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; }
+    h2 { font-size: 1.3rem; margin-top: 2rem; }
+    a { color: #0757a0; text-underline-offset: .15em; }
+    a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #a7b1ba; font-size: .95rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #141d26; color: #eef3f7; }
+      a { color: #9cccff; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Site"><a href="https://jamie323.github.io/rclone/">rclone home</a></nav>
+    <h1>Privacy</h1>
+    <p>For Jamie Thomson's personal rclone connection to Google Drive. Updated 10 October 2026.</p>
+
+    <h2>Purpose and access</h2>
+    <p>This connection authorizes the rclone command-line tool running on Jamie's computer to manage Jamie's own Google Drive. It is for Jamie's personal use and is not offered as a hosted service to other users.</p>
+    <p>The full Google Drive permission allows rclone to list, read, create, update, and delete Drive files, excluding Google's Application Data folder. File contents and metadata are accessed only to carry out commands or tasks directed or authorized by Jamie.</p>
+
+    <h2>Use and storage</h2>
+    <p>For this connection, file contents and metadata move between Jamie's computer and Google Drive as required by those file operations. OAuth client credentials, access tokens, and refresh tokens are stored in rclone's local configuration on Jamie's computer. Local downloads and logs may also remain on that computer.</p>
+    <p>There is no separate hosted application service receiving Drive content through this connection. This connection does not use Google user data for advertising, sell that data, or share it with a third-party audience.</p>
+
+    <h2>Revoking access and deleting copies</h2>
+    <p>Jamie can revoke this application's access in <a href="https://myaccount.google.com/connections">Google Account connections</a> and remove its credentials and tokens from the local rclone configuration. Revoking access stops future authorized requests; it does not delete existing files in Drive or downloaded copies. Those remain until Jamie deletes them from their respective locations.</p>
+
+    <h2>Google and website hosting</h2>
+    <p>Google processes authorization and Google Drive requests under its own <a href="https://policies.google.com/privacy">privacy policy</a>. This information website is hosted by GitHub Pages. GitHub processes website requests under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>, which may include routine access logs.</p>
+    <p>These pages contain no analytics scripts, sign-in forms, or uploads. They do not receive OAuth credentials, tokens, or Drive file contents.</p>
+
+    <footer>
+      <p>Maintained by Jamie Thomson. <a href="https://github.com/jamie323">Public GitHub profile</a> · <a href="https://jamie323.github.io/rclone/">rclone home</a></p>
+    </footer>
+  </main>
+</body>
+</html>
